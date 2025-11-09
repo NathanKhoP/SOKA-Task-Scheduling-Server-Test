@@ -1,0 +1,5 @@
+flask
+numpy
+httpx
+pandas
+python-dotenv
