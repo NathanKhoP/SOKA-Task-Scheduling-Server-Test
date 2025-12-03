@@ -1,8 +1,14 @@
-# Pengujian Algoritma Task Scheduler pada Server IT
+# Pengujian Algoritma Task Scheduler pada Server IT - j2020 vs. SHC, RR, FCFS
 
-Repo ini merupakan kode dari server yang digunakan dalam pengujian Task Scheduling pada Server IT serta contoh algoritma scheduler untuk keperluan mata kuliah **Strategi Optimasi Komputasi Awan (SOKA)**
+**Kelas A - Kelompok E**
 
-## Cara Penggunaan - Dev
+| Nama | NRP |
+| -- | -- |
+| Nathan Kho Pancras | 5027231002 |
+
+Repo ini memuat kode server pengujian Task Scheduling pada Server IT serta implementasi algoritma penjadwalan **J2020** yang diadaptasi dari dokumen *Differential J2020* (`differential_j2020.pdf`) untuk kebutuhan mata kuliah **Strategi Optimasi Komputasi Awan (SOKA)**.
+
+## Usage
 
 1. Install `uv` sebagai dependency manager. Lihat [link berikut](https://docs.astral.sh/uv/getting-started/installation/)
 
@@ -23,9 +29,11 @@ VM4_IP=""
 VM_PORT=5000
 ```
 
-4. Algoritma pada contoh di sini merupakan algoritma `Stochastic Hill Climbing`.
-
-![shc_algorithm](https://i.sstatic.net/HISbC.png)
+4. Scheduler utama kini menggunakan algoritma `J2020`. Implementasi ini mengikuti pendekatan pada *Differential J2020* dengan langkah-langkah:
+	- Melakukan profiling VM menggunakan tugas probe.
+	- Menghitung skor komposit (ECT, load balance, energi) untuk setiap pasangan tugas–VM.
+	- Menentukan penempatan tugas dengan strategi *min-min* berbobot.
+	Dokumentasi asli dapat dilihat pada `differential_j2020.pdf`. Selain J2020, repositori masih menyediakan algoritma pembanding (`Stochastic Hill Climbing`, `Round Robin`, `FCFS`) untuk eksperimen.
 
 5. Untuk menjalankan server, jalankan docker
 
@@ -34,43 +42,17 @@ docker compose build --no-cache
 docker compose up -d
 ```
 
-6. Inisiasi Dataset untuk scheduler. Buat file `dataset.txt` kemudian isi dengan dataset berupa angka 1 - 10. Berikut adalah contohnya:
+6. Scheduler secara otomatis membaca tiga dataset contoh (`dataset-low-high.txt`, `dataset-rand.txt`, `dataset-rand-stratified.txt`). Anda dapat menyesuaikan isi file-file tersebut (nilai 1–10) sesuai kebutuhan eksperimen, atau mengarahkan ke dataset lain lewat variabel lingkungan.
 
-```txt
-6
-5
-8
-2
-10
-3
-4
-4
-7
-3
-9
-1
-7
-9
-1
-8
-2
-5
-6
-10
-```
-
-7. Untuk menjalankan scheduler, jalankan file `scheduler.py`. **Jangan lupa menggunakan VPN / Wifi ITS**
+7. Untuk menjalankan scheduler (menjalankan J2020 + algoritma pembanding pada ketiga dataset sebanyak `DATASET_ITERATIONS` kali, default 10), jalankan `scheduler.py`. **Jangan lupa menggunakan VPN / Wifi ITS**
 
 ```bash
 uv run scheduler.py
 ```
 
-8. Apabila sukses, akan terdapat hasil berupa file `result.csv` dan pada console akan tampil perhitungan parameter untuk kebutuhan analisis.
-
-`result.csv`
-
-![result csv](./images/result-csv.png)
-
-`console`
-
-![console](./images/console.png)
+8. Setelah selesai, output berikut akan tersedia:
+	- `shc_results.csv`, `j2020_results.csv`, `rr_results.csv`, `fcfs_results.csv`: rata-rata metrik per algoritma & dataset.
+	- `comparison_results.csv`: tabel perbandingan lintas algoritma.
+	- `summary.txt`: ringkasan setiap iterasi.
+	- `scheduler_run.log`: log JSONL berisi detail penjadwalan tiap tugas.
+	Konsol tetap menampilkan metrik satu kali jalan untuk debugging cepat.
