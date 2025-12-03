@@ -34,6 +34,7 @@ J2020_RESULTS_FILE = os.getenv("J2020_RESULTS_FILE", "j2020_results.csv")
 RR_RESULTS_FILE = os.getenv("RR_RESULTS_FILE", "rr_results.csv")
 FCFS_RESULTS_FILE = os.getenv("FCFS_RESULTS_FILE", "fcfs_results.csv")
 SUMMARY_FILE = os.getenv("SUMMARY_FILE", "summary.txt")
+COMPARISON_RESULTS_FILE = os.getenv("COMPARISON_RESULTS_FILE", "comparison_results.csv")
 
 # SHC tunables
 SHC_ITERATIONS = int(os.getenv("SHC_ITERATIONS", "1000"))
@@ -43,7 +44,7 @@ PER_VM_CONCURRENCY = int(os.getenv("PER_VM_CONCURRENCY", "1"))
 # J2020 profiling probe (task index 1..10, mirrors server’s scaling)
 J2020_PROBE_INDEX = int(os.getenv("J2020_PROBE_INDEX", "5"))
 
-DATASET_ITERATIONS = int(os.getenv("DATASET_ITERATIONS", "1"))
+DATASET_ITERATIONS = int(os.getenv("DATASET_ITERATIONS", "10"))
 RUN_LOG_FILE = os.getenv("RUN_LOG_FILE", "scheduler_run.log")
 
 DATASET_FILES = {
@@ -52,12 +53,26 @@ DATASET_FILES = {
     "rand_stratified": os.getenv("DATASET_RAND_STRATIFIED", "dataset-rand-stratified.txt"),
 }
 
+DATASET_DISPLAY_NAMES = {
+    "low_high": "Low-High_Dataset",
+    "rand": "Random_Simple_Dataset",
+    "rand_stratified": "Stratified_Random_Dataset",
+}
+
+ALGORITHM_DISPLAY_NAMES = {
+    "shc": "Stochastic_Hill_Climbing",
+    "j2020": "J2020",
+    "rr": "Round_Robin",
+    "fcfs": "FCFS",
+}
+
 METRIC_FIELDS = [
     "num_tasks",
     "makespan",
     "throughput",
     "total_cpu_time",
     "total_wait_time",
+    "avg_wait_time",
     "avg_start_time",
     "avg_exec_time",
     "avg_finish_time",
@@ -136,7 +151,7 @@ def append_summary_entry(iteration_label: str, metrics: Dict[str, float], summar
 
     _ensure_parent_dir(summary_path)
     lines = [
-        f"\nIterasi {iteration_label}:",
+        f"iterasi {iteration_label}:",
         f"Semua eksekusi tugas selesai dalam {metrics['makespan']:.4f} detik.",
         "",
         "--- Hasil ---",
@@ -154,7 +169,7 @@ def append_summary_entry(iteration_label: str, metrics: Dict[str, float], summar
     ]
 
     with open(summary_path, 'a', encoding='utf-8') as summary_file:
-        summary_file.write("\n".join(lines))
+        summary_file.write("\n".join(lines) + "\n")
 
 
 def average_metric_records(records: List[Dict[str, float]]) -> Dict[str, float]:
@@ -185,6 +200,57 @@ def write_average_metrics_csv(out_file: str, rows: List[Dict[str, float]]) -> No
         print(f"Ringkasan rata-rata disimpan ke {out_file}")
     except IOError as e:
         print(f"Error menulis ringkasan ke {out_file}: {e}", file=sys.stderr)
+
+
+def build_comparison_row(algorithm_key: str, dataset_key: str, metrics: Dict[str, float]) -> Dict[str, object]:
+    return {
+        "algorithm": ALGORITHM_DISPLAY_NAMES.get(algorithm_key, algorithm_key.upper()),
+        "dataset": DATASET_DISPLAY_NAMES.get(dataset_key, dataset_key),
+        "total_tasks": metrics.get("num_tasks", 0.0),
+        "makespan": metrics.get("makespan", 0.0),
+        "throughput": metrics.get("throughput", 0.0),
+        "total_cpu_time": metrics.get("total_cpu_time", 0.0),
+        "total_wait_time": metrics.get("total_wait_time", 0.0),
+        "avg_start_time": metrics.get("avg_start_time", 0.0),
+        "avg_exec_time": metrics.get("avg_exec_time", 0.0),
+        "avg_finish_time": metrics.get("avg_finish_time", 0.0),
+        "avg_wait_time": metrics.get("avg_wait_time", 0.0),
+        "imbalance_degree": metrics.get("imbalance_degree", 0.0),
+        "resource_utilization": metrics.get("resource_utilization", 0.0),
+    }
+
+
+def write_comparison_results(rows: List[Dict[str, object]], out_file: str) -> None:
+    if not rows:
+        print("Tidak ada data untuk comparison_results.csv")
+        return
+
+    headers = [
+        "algorithm",
+        "dataset",
+        "total_tasks",
+        "makespan",
+        "throughput",
+        "total_cpu_time",
+        "total_wait_time",
+        "avg_start_time",
+        "avg_exec_time",
+        "avg_finish_time",
+        "avg_wait_time",
+        "imbalance_degree",
+        "resource_utilization",
+    ]
+
+    _ensure_parent_dir(out_file)
+    try:
+        with open(out_file, 'w', newline='', encoding='utf-8') as f:
+            writer = csv.DictWriter(f, fieldnames=headers)
+            writer.writeheader()
+            for row in rows:
+                writer.writerow({key: row.get(key) for key in headers})
+        print(f"Comparison results disimpan ke {out_file}")
+    except IOError as e:
+        print(f"Error menulis comparison results ke {out_file}: {e}", file=sys.stderr)
 
 # --- Profiling real per-VM speeds (for J2020) ---
 
@@ -318,6 +384,7 @@ def compute_metrics(results_list: list, makespan: float, effective_slots: int):
 
     total_cpu_time = success_df['exec_time'].sum()
     total_wait_time = success_df['wait_time'].sum()
+    avg_wait_time = success_df['wait_time'].mean()
 
     avg_exec_time = success_df['exec_time'].mean()
 
@@ -346,6 +413,7 @@ def compute_metrics(results_list: list, makespan: float, effective_slots: int):
         "throughput": throughput,
         "total_cpu_time": float(total_cpu_time),
         "total_wait_time": float(total_wait_time),
+        "avg_wait_time": float(avg_wait_time),
         "avg_start_time": float(avg_start_time),
         "avg_exec_time": float(avg_exec_time),
         "avg_finish_time": float(avg_finish_time),
@@ -575,6 +643,8 @@ async def main():
     with open(SUMMARY_FILE, 'w', encoding='utf-8') as _:
         pass
 
+    comparison_rows: List[Dict[str, object]] = []
+
     for algorithm_name, runner, result_file in ALGORITHMS:
         summary_rows: List[Dict[str, object]] = []
         for dataset_label, dataset_path in DATASET_FILES.items():
@@ -607,6 +677,10 @@ async def main():
                 summary_iteration_label = f"{algorithm_name.upper()}-{dataset_label}-{iteration}"
                 append_summary_entry(summary_iteration_label, metrics)
 
+            if not metrics_runs:
+                print(f"Tidak ada metrik terkumpul untuk {algorithm_name} dataset {dataset_label}. Melewati ringkasan.")
+                continue
+
             avg_metrics = average_metric_records(metrics_runs)
             avg_metrics.update({
                 "algorithm": algorithm_name,
@@ -614,8 +688,11 @@ async def main():
                 "runs": len(metrics_runs),
             })
             summary_rows.append(avg_metrics)
+            comparison_rows.append(build_comparison_row(algorithm_name, dataset_label, avg_metrics))
 
         write_average_metrics_csv(result_file, summary_rows)
+
+    write_comparison_results(comparison_rows, COMPARISON_RESULTS_FILE)
 
 if __name__ == "__main__":
     asyncio.run(main())

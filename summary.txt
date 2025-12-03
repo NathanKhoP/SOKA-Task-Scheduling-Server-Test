@@ -1,168 +1,1800 @@
-Iterasi SHC-low_high-1:
-Semua eksekusi tugas selesai dalam 124.9928 detik.
+iterasi SHC-low_high-1:
+Semua eksekusi tugas selesai dalam 71.6904 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 29
+Makespan (Waktu Total)    : 71.6904 detik
+Throughput                : 0.4045 tugas/detik
+Total CPU Time            : 504.9164 detik
+Total Wait Time           : 219.4919 detik
+Average Start Time (rel)  : 7.5833 detik
+Average Execution Time    : 17.4109 detik
+Average Finish Time (rel) : 24.9941 detik
+Imbalance Degree          : 1.8031
+Resource Utilization (CPU): 46.9534%
+
+iterasi SHC-low_high-2:
+Semua eksekusi tugas selesai dalam 66.4788 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 29
+Makespan (Waktu Total)    : 66.4788 detik
+Throughput                : 0.4362 tugas/detik
+Total CPU Time            : 543.7064 detik
+Total Wait Time           : 294.8238 detik
+Average Start Time (rel)  : 10.1712 detik
+Average Execution Time    : 18.7485 detik
+Average Finish Time (rel) : 28.9197 detik
+Imbalance Degree          : 1.7142
+Resource Utilization (CPU): 54.5243%
+
+iterasi SHC-low_high-3:
+Semua eksekusi tugas selesai dalam 97.8513 detik.
 
 --- Hasil ---
 Total Tugas Selesai       : 28
-Makespan (Waktu Total)    : 124.9928 detik
-Throughput                : 0.2240 tugas/detik
-Total CPU Time            : 839.0366 detik
-Total Wait Time           : 547.7531 detik
-Average Start Time (rel)  : 19.5747 detik
-Average Execution Time    : 29.9656 detik
-Average Finish Time (rel) : 49.5390 detik
-Imbalance Degree          : 1.3387
-Resource Utilization (CPU): 44.7512%
-Iterasi SHC-rand-1:
-Semua eksekusi tugas selesai dalam 120.9575 detik.
+Makespan (Waktu Total)    : 97.8513 detik
+Throughput                : 0.2861 tugas/detik
+Total CPU Time            : 484.5575 detik
+Total Wait Time           : 539.7449 detik
+Average Start Time (rel)  : 19.2812 detik
+Average Execution Time    : 17.3056 detik
+Average Finish Time (rel) : 36.5868 detik
+Imbalance Degree          : 1.4450
+Resource Utilization (CPU): 33.0132%
+
+iterasi SHC-low_high-4:
+Semua eksekusi tugas selesai dalam 98.1901 detik.
 
 --- Hasil ---
-Total Tugas Selesai       : 50
-Makespan (Waktu Total)    : 120.9575 detik
-Throughput                : 0.4134 tugas/detik
-Total CPU Time            : 772.1377 detik
-Total Wait Time           : 1099.3167 detik
-Average Start Time (rel)  : 21.9901 detik
-Average Execution Time    : 15.4428 detik
-Average Finish Time (rel) : 37.4320 detik
-Imbalance Degree          : 1.4266
-Resource Utilization (CPU): 42.5570%
-Iterasi SHC-rand_stratified-1:
-Semua eksekusi tugas selesai dalam 299.5774 detik.
+Total Tugas Selesai       : 28
+Makespan (Waktu Total)    : 98.1901 detik
+Throughput                : 0.2852 tugas/detik
+Total CPU Time            : 531.2512 detik
+Total Wait Time           : 370.5377 detik
+Average Start Time (rel)  : 13.2363 detik
+Average Execution Time    : 18.9733 detik
+Average Finish Time (rel) : 32.2096 detik
+Imbalance Degree          : 2.0933
+Resource Utilization (CPU): 36.0696%
 
---- Hasil ---
-Total Tugas Selesai       : 250
-Makespan (Waktu Total)    : 299.5774 detik
-Throughput                : 0.8345 tugas/detik
-Total CPU Time            : 2272.1750 detik
-Total Wait Time           : 21443.0561 detik
-Average Start Time (rel)  : 85.7739 detik
-Average Execution Time    : 9.0887 detik
-Average Finish Time (rel) : 94.8622 detik
-Imbalance Degree          : 1.2904
-Resource Utilization (CPU): 50.5640%
-Iterasi J2020-low_high-1:
-Semua eksekusi tugas selesai dalam 119.3372 detik.
+iterasi SHC-low_high-5:
+Semua eksekusi tugas selesai dalam 108.3401 detik.
 
 --- Hasil ---
 Total Tugas Selesai       : 29
-Makespan (Waktu Total)    : 119.3372 detik
-Throughput                : 0.2430 tugas/detik
-Total CPU Time            : 261.2268 detik
-Total Wait Time           : 0.0001 detik
-Average Start Time (rel)  : 36.9088 detik
-Average Execution Time    : 9.0078 detik
-Average Finish Time (rel) : 45.9162 detik
-Imbalance Degree          : 0.6328
-Resource Utilization (CPU): 54.7245%
-Iterasi J2020-rand-1:
-Semua eksekusi tugas selesai dalam 214.3137 detik.
+Makespan (Waktu Total)    : 108.3401 detik
+Throughput                : 0.2677 tugas/detik
+Total CPU Time            : 518.0985 detik
+Total Wait Time           : 522.0949 detik
+Average Start Time (rel)  : 18.0080 detik
+Average Execution Time    : 17.8655 detik
+Average Finish Time (rel) : 35.8734 detik
+Imbalance Degree          : 1.9257
+Resource Utilization (CPU): 31.8810%
+
+iterasi SHC-low_high-6:
+Semua eksekusi tugas selesai dalam 103.3766 detik.
 
 --- Hasil ---
-Total Tugas Selesai       : 50
-Makespan (Waktu Total)    : 214.3137 detik
-Throughput                : 0.2333 tugas/detik
-Total CPU Time            : 647.2381 detik
-Total Wait Time           : 0.0002 detik
-Average Start Time (rel)  : 109.2231 detik
-Average Execution Time    : 12.9448 detik
-Average Finish Time (rel) : 122.1670 detik
-Imbalance Degree          : 0.7079
-Resource Utilization (CPU): 75.5012%
-Iterasi J2020-rand_stratified-1:
-Semua eksekusi tugas selesai dalam 281.6195 detik.
+Total Tugas Selesai       : 28
+Makespan (Waktu Total)    : 103.3766 detik
+Throughput                : 0.2709 tugas/detik
+Total CPU Time            : 594.6237 detik
+Total Wait Time           : 451.0062 detik
+Average Start Time (rel)  : 16.1121 detik
+Average Execution Time    : 21.2366 detik
+Average Finish Time (rel) : 37.3487 detik
+Imbalance Degree          : 1.5829
+Resource Utilization (CPU): 38.3468%
+
+iterasi SHC-low_high-7:
+Semua eksekusi tugas selesai dalam 135.7563 detik.
 
 --- Hasil ---
-Total Tugas Selesai       : 250
-Makespan (Waktu Total)    : 281.6195 detik
-Throughput                : 0.8877 tugas/detik
-Total CPU Time            : 823.9260 detik
-Total Wait Time           : 0.0012 detik
-Average Start Time (rel)  : 147.6328 detik
-Average Execution Time    : 3.2957 detik
-Average Finish Time (rel) : 150.9283 detik
-Imbalance Degree          : 0.6257
-Resource Utilization (CPU): 73.1418%
-Iterasi RR-low_high-1:
-Semua eksekusi tugas selesai dalam 391.4574 detik.
+Total Tugas Selesai       : 28
+Makespan (Waktu Total)    : 135.7563 detik
+Throughput                : 0.2063 tugas/detik
+Total CPU Time            : 570.6581 detik
+Total Wait Time           : 346.9888 detik
+Average Start Time (rel)  : 12.3989 detik
+Average Execution Time    : 20.3806 detik
+Average Finish Time (rel) : 32.7795 detik
+Imbalance Degree          : 1.2369
+Resource Utilization (CPU): 28.0237%
 
---- Hasil ---
-Total Tugas Selesai       : 26
-Makespan (Waktu Total)    : 391.4574 detik
-Throughput                : 0.0664 tugas/detik
-Total CPU Time            : 701.0879 detik
-Total Wait Time           : 1513.3832 detik
-Average Start Time (rel)  : 58.2071 detik
-Average Execution Time    : 26.9649 detik
-Average Finish Time (rel) : 85.1702 detik
-Imbalance Degree          : 1.5213
-Resource Utilization (CPU): 11.9398%
-Iterasi RR-rand-1:
-Semua eksekusi tugas selesai dalam 439.1238 detik.
-
---- Hasil ---
-Total Tugas Selesai       : 48
-Makespan (Waktu Total)    : 439.1238 detik
-Throughput                : 0.1093 tugas/detik
-Total CPU Time            : 1245.4107 detik
-Total Wait Time           : 4575.1247 detik
-Average Start Time (rel)  : 95.3150 detik
-Average Execution Time    : 25.9461 detik
-Average Finish Time (rel) : 121.2595 detik
-Imbalance Degree          : 0.4237
-Resource Utilization (CPU): 18.9075%
-Iterasi RR-rand_stratified-1:
-Semua eksekusi tugas selesai dalam 268.8180 detik.
-
---- Hasil ---
-Total Tugas Selesai       : 249
-Makespan (Waktu Total)    : 268.8180 detik
-Throughput                : 0.9263 tugas/detik
-Total CPU Time            : 715.3057 detik
-Total Wait Time           : 13566.7856 detik
-Average Start Time (rel)  : 54.4865 detik
-Average Execution Time    : 2.8727 detik
-Average Finish Time (rel) : 57.3591 detik
-Imbalance Degree          : 0.8219
-Resource Utilization (CPU): 17.7395%
-Iterasi FCFS-low_high-1:
-Semua eksekusi tugas selesai dalam 91.6253 detik.
+iterasi SHC-low_high-8:
+Semua eksekusi tugas selesai dalam 109.4068 detik.
 
 --- Hasil ---
 Total Tugas Selesai       : 29
-Makespan (Waktu Total)    : 91.6253 detik
-Throughput                : 0.3165 tugas/detik
-Total CPU Time            : 277.9314 detik
-Total Wait Time           : 0.0001 detik
-Average Start Time (rel)  : 25.9154 detik
-Average Execution Time    : 9.5838 detik
-Average Finish Time (rel) : 35.4989 detik
-Imbalance Degree          : 0.2798
-Resource Utilization (CPU): 20.2223%
-Iterasi FCFS-rand-1:
-Semua eksekusi tugas selesai dalam 158.7000 detik.
+Makespan (Waktu Total)    : 109.4068 detik
+Throughput                : 0.2651 tugas/detik
+Total CPU Time            : 555.0724 detik
+Total Wait Time           : 499.6199 detik
+Average Start Time (rel)  : 17.2346 detik
+Average Execution Time    : 19.1404 detik
+Average Finish Time (rel) : 36.3750 detik
+Imbalance Degree          : 1.2743
+Resource Utilization (CPU): 33.8232%
+
+iterasi SHC-low_high-9:
+Semua eksekusi tugas selesai dalam 84.4376 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 29
+Makespan (Waktu Total)    : 84.4376 detik
+Throughput                : 0.3434 tugas/detik
+Total CPU Time            : 568.3606 detik
+Total Wait Time           : 337.4732 detik
+Average Start Time (rel)  : 11.6413 detik
+Average Execution Time    : 19.5986 detik
+Average Finish Time (rel) : 31.2400 detik
+Imbalance Degree          : 1.5488
+Resource Utilization (CPU): 44.8742%
+
+iterasi SHC-low_high-10:
+Semua eksekusi tugas selesai dalam 61.0768 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 29
+Makespan (Waktu Total)    : 61.0768 detik
+Throughput                : 0.4748 tugas/detik
+Total CPU Time            : 513.3094 detik
+Total Wait Time           : 290.1542 detik
+Average Start Time (rel)  : 10.0124 detik
+Average Execution Time    : 17.7003 detik
+Average Finish Time (rel) : 27.7127 detik
+Imbalance Degree          : 1.8454
+Resource Utilization (CPU): 56.0289%
+
+iterasi SHC-rand-1:
+Semua eksekusi tugas selesai dalam 56.2198 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 50
+Makespan (Waktu Total)    : 56.2198 detik
+Throughput                : 0.8894 tugas/detik
+Total CPU Time            : 724.0409 detik
+Total Wait Time           : 809.2932 detik
+Average Start Time (rel)  : 16.1941 detik
+Average Execution Time    : 14.4808 detik
+Average Finish Time (rel) : 30.6749 detik
+Imbalance Degree          : 1.9862
+Resource Utilization (CPU): 85.8583%
+
+iterasi SHC-rand-2:
+Semua eksekusi tugas selesai dalam 60.3882 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 50
+Makespan (Waktu Total)    : 60.3882 detik
+Throughput                : 0.8280 tugas/detik
+Total CPU Time            : 716.8660 detik
+Total Wait Time           : 827.2195 detik
+Average Start Time (rel)  : 16.5501 detik
+Average Execution Time    : 14.3373 detik
+Average Finish Time (rel) : 30.8874 detik
+Imbalance Degree          : 1.5438
+Resource Utilization (CPU): 79.1398%
+
+iterasi SHC-rand-3:
+Semua eksekusi tugas selesai dalam 70.3533 detik.
 
 --- Hasil ---
 Total Tugas Selesai       : 49
-Makespan (Waktu Total)    : 158.7000 detik
-Throughput                : 0.3088 tugas/detik
-Total CPU Time            : 510.0812 detik
-Total Wait Time           : 0.0002 detik
-Average Start Time (rel)  : 79.7442 detik
-Average Execution Time    : 10.4098 detik
-Average Finish Time (rel) : 90.1536 detik
-Imbalance Degree          : 0.0259
-Resource Utilization (CPU): 21.4275%
-Iterasi FCFS-rand_stratified-1:
-Semua eksekusi tugas selesai dalam 59.2966 detik.
+Makespan (Waktu Total)    : 70.3533 detik
+Throughput                : 0.6965 tugas/detik
+Total CPU Time            : 697.6017 detik
+Total Wait Time           : 897.5220 detik
+Average Start Time (rel)  : 18.3232 detik
+Average Execution Time    : 14.2368 detik
+Average Finish Time (rel) : 32.5599 detik
+Imbalance Degree          : 1.8394
+Resource Utilization (CPU): 66.1047%
+
+iterasi SHC-rand-4:
+Semua eksekusi tugas selesai dalam 57.8514 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 50
+Makespan (Waktu Total)    : 57.8514 detik
+Throughput                : 0.8643 tugas/detik
+Total CPU Time            : 735.7261 detik
+Total Wait Time           : 774.9745 detik
+Average Start Time (rel)  : 15.5070 detik
+Average Execution Time    : 14.7145 detik
+Average Finish Time (rel) : 30.2215 detik
+Imbalance Degree          : 2.0005
+Resource Utilization (CPU): 84.7835%
+
+iterasi SHC-rand-5:
+Semua eksekusi tugas selesai dalam 57.1095 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 50
+Makespan (Waktu Total)    : 57.1095 detik
+Throughput                : 0.8755 tugas/detik
+Total CPU Time            : 755.9454 detik
+Total Wait Time           : 846.1289 detik
+Average Start Time (rel)  : 16.9295 detik
+Average Execution Time    : 15.1189 detik
+Average Finish Time (rel) : 32.0484 detik
+Imbalance Degree          : 1.9246
+Resource Utilization (CPU): 88.2451%
+
+iterasi SHC-rand-6:
+Semua eksekusi tugas selesai dalam 57.9692 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 50
+Makespan (Waktu Total)    : 57.9692 detik
+Throughput                : 0.8625 tugas/detik
+Total CPU Time            : 726.4753 detik
+Total Wait Time           : 850.6526 detik
+Average Start Time (rel)  : 17.0266 detik
+Average Execution Time    : 14.5295 detik
+Average Finish Time (rel) : 31.5561 detik
+Imbalance Degree          : 1.7561
+Resource Utilization (CPU): 83.5472%
+
+iterasi SHC-rand-7:
+Semua eksekusi tugas selesai dalam 56.9056 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 50
+Makespan (Waktu Total)    : 56.9056 detik
+Throughput                : 0.8786 tugas/detik
+Total CPU Time            : 709.8333 detik
+Total Wait Time           : 839.3261 detik
+Average Start Time (rel)  : 16.7920 detik
+Average Execution Time    : 14.1967 detik
+Average Finish Time (rel) : 30.9887 detik
+Imbalance Degree          : 1.8587
+Resource Utilization (CPU): 83.1591%
+
+iterasi SHC-rand-8:
+Semua eksekusi tugas selesai dalam 56.8342 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 50
+Makespan (Waktu Total)    : 56.8342 detik
+Throughput                : 0.8798 tugas/detik
+Total CPU Time            : 720.6443 detik
+Total Wait Time           : 878.3151 detik
+Average Start Time (rel)  : 17.5707 detik
+Average Execution Time    : 14.4129 detik
+Average Finish Time (rel) : 31.9835 detik
+Imbalance Degree          : 1.9063
+Resource Utilization (CPU): 84.5318%
+
+iterasi SHC-rand-9:
+Semua eksekusi tugas selesai dalam 67.5014 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 49
+Makespan (Waktu Total)    : 67.5014 detik
+Throughput                : 0.7259 tugas/detik
+Total CPU Time            : 721.2241 detik
+Total Wait Time           : 846.6283 detik
+Average Start Time (rel)  : 17.2837 detik
+Average Execution Time    : 14.7189 detik
+Average Finish Time (rel) : 32.0025 detik
+Imbalance Degree          : 1.8101
+Resource Utilization (CPU): 71.2305%
+
+iterasi SHC-rand-10:
+Semua eksekusi tugas selesai dalam 55.3284 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 50
+Makespan (Waktu Total)    : 55.3284 detik
+Throughput                : 0.9037 tugas/detik
+Total CPU Time            : 727.5237 detik
+Total Wait Time           : 762.2318 detik
+Average Start Time (rel)  : 15.2522 detik
+Average Execution Time    : 14.5505 detik
+Average Finish Time (rel) : 29.8027 detik
+Imbalance Degree          : 1.8931
+Resource Utilization (CPU): 87.6612%
+
+iterasi SHC-rand_stratified-1:
+Semua eksekusi tugas selesai dalam 63.8714 detik.
 
 --- Hasil ---
 Total Tugas Selesai       : 250
-Makespan (Waktu Total)    : 59.2966 detik
-Throughput                : 4.2161 tugas/detik
-Total CPU Time            : 217.5616 detik
+Makespan (Waktu Total)    : 63.8714 detik
+Throughput                : 3.9141 tugas/detik
+Total CPU Time            : 586.7520 detik
+Total Wait Time           : 4981.5827 detik
+Average Start Time (rel)  : 19.9326 detik
+Average Execution Time    : 2.3470 detik
+Average Finish Time (rel) : 22.2796 detik
+Imbalance Degree          : 1.2625
+Resource Utilization (CPU): 61.2430%
+
+iterasi SHC-rand_stratified-2:
+Semua eksekusi tugas selesai dalam 69.2913 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 250
+Makespan (Waktu Total)    : 69.2913 detik
+Throughput                : 3.6080 tugas/detik
+Total CPU Time            : 572.7998 detik
+Total Wait Time           : 5817.7649 detik
+Average Start Time (rel)  : 23.2772 detik
+Average Execution Time    : 2.2912 detik
+Average Finish Time (rel) : 25.5684 detik
+Imbalance Degree          : 1.1892
+Resource Utilization (CPU): 55.1103%
+
+iterasi SHC-rand_stratified-3:
+Semua eksekusi tugas selesai dalam 62.0360 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 250
+Makespan (Waktu Total)    : 62.0360 detik
+Throughput                : 4.0299 tugas/detik
+Total CPU Time            : 576.0494 detik
+Total Wait Time           : 6009.1540 detik
+Average Start Time (rel)  : 24.0457 detik
+Average Execution Time    : 2.3042 detik
+Average Finish Time (rel) : 26.3499 detik
+Imbalance Degree          : 1.0064
+Resource Utilization (CPU): 61.9049%
+
+iterasi SHC-rand_stratified-4:
+Semua eksekusi tugas selesai dalam 82.4077 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 249
+Makespan (Waktu Total)    : 82.4077 detik
+Throughput                : 3.0216 tugas/detik
+Total CPU Time            : 557.7480 detik
+Total Wait Time           : 6473.7006 detik
+Average Start Time (rel)  : 26.0087 detik
+Average Execution Time    : 2.2400 detik
+Average Finish Time (rel) : 28.2487 detik
+Imbalance Degree          : 1.0864
+Resource Utilization (CPU): 45.1211%
+
+iterasi SHC-rand_stratified-5:
+Semua eksekusi tugas selesai dalam 81.0421 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 250
+Makespan (Waktu Total)    : 81.0421 detik
+Throughput                : 3.0848 tugas/detik
+Total CPU Time            : 588.4735 detik
+Total Wait Time           : 6340.2047 detik
+Average Start Time (rel)  : 25.3671 detik
+Average Execution Time    : 2.3539 detik
+Average Finish Time (rel) : 27.7209 detik
+Imbalance Degree          : 0.7738
+Resource Utilization (CPU): 48.4089%
+
+iterasi SHC-rand_stratified-6:
+Semua eksekusi tugas selesai dalam 95.2864 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 250
+Makespan (Waktu Total)    : 95.2864 detik
+Throughput                : 2.6237 tugas/detik
+Total CPU Time            : 560.7254 detik
+Total Wait Time           : 6665.9033 detik
+Average Start Time (rel)  : 26.6696 detik
+Average Execution Time    : 2.2429 detik
+Average Finish Time (rel) : 28.9125 detik
+Imbalance Degree          : 0.6249
+Resource Utilization (CPU): 39.2309%
+
+iterasi SHC-rand_stratified-7:
+Semua eksekusi tugas selesai dalam 66.3189 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 250
+Makespan (Waktu Total)    : 66.3189 detik
+Throughput                : 3.7697 tugas/detik
+Total CPU Time            : 574.9559 detik
+Total Wait Time           : 5979.7928 detik
+Average Start Time (rel)  : 23.9305 detik
+Average Execution Time    : 2.2998 detik
+Average Finish Time (rel) : 26.2303 detik
+Imbalance Degree          : 1.4500
+Resource Utilization (CPU): 57.7971%
+
+iterasi SHC-rand_stratified-8:
+Semua eksekusi tugas selesai dalam 106.7632 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 250
+Makespan (Waktu Total)    : 106.7632 detik
+Throughput                : 2.3416 tugas/detik
+Total CPU Time            : 567.4320 detik
+Total Wait Time           : 6732.5943 detik
+Average Start Time (rel)  : 26.9365 detik
+Average Execution Time    : 2.2697 detik
+Average Finish Time (rel) : 29.2062 detik
+Imbalance Degree          : 0.8508
+Resource Utilization (CPU): 35.4324%
+
+iterasi SHC-rand_stratified-9:
+Semua eksekusi tugas selesai dalam 49.4503 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 250
+Makespan (Waktu Total)    : 49.4503 detik
+Throughput                : 5.0556 tugas/detik
+Total CPU Time            : 584.7192 detik
+Total Wait Time           : 5071.5677 detik
+Average Start Time (rel)  : 20.3033 detik
+Average Execution Time    : 2.3389 detik
+Average Finish Time (rel) : 22.6422 detik
+Imbalance Degree          : 1.9035
+Resource Utilization (CPU): 78.8293%
+
+iterasi SHC-rand_stratified-10:
+Semua eksekusi tugas selesai dalam 90.1399 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 250
+Makespan (Waktu Total)    : 90.1399 detik
+Throughput                : 2.7735 tugas/detik
+Total CPU Time            : 558.2492 detik
+Total Wait Time           : 6272.6547 detik
+Average Start Time (rel)  : 25.0989 detik
+Average Execution Time    : 2.2330 detik
+Average Finish Time (rel) : 27.3319 detik
+Imbalance Degree          : 0.5855
+Resource Utilization (CPU): 41.2876%
+
+iterasi J2020-low_high-1:
+Semua eksekusi tugas selesai dalam 73.0934 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 29
+Makespan (Waktu Total)    : 73.0934 detik
+Throughput                : 0.3968 tugas/detik
+Total CPU Time            : 194.2274 detik
+Total Wait Time           : 0.0001 detik
+Average Start Time (rel)  : 36.4169 detik
+Average Execution Time    : 6.6975 detik
+Average Finish Time (rel) : 43.1144 detik
+Imbalance Degree          : 0.2735
+Resource Utilization (CPU): 66.4312%
+
+iterasi J2020-low_high-2:
+Semua eksekusi tugas selesai dalam 86.8226 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 29
+Makespan (Waktu Total)    : 86.8226 detik
+Throughput                : 0.3340 tugas/detik
+Total CPU Time            : 208.8380 detik
+Total Wait Time           : 0.0001 detik
+Average Start Time (rel)  : 37.3452 detik
+Average Execution Time    : 7.2013 detik
+Average Finish Time (rel) : 44.5465 detik
+Imbalance Degree          : 0.1653
+Resource Utilization (CPU): 60.1335%
+
+iterasi J2020-low_high-3:
+Semua eksekusi tugas selesai dalam 71.1016 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 29
+Makespan (Waktu Total)    : 71.1016 detik
+Throughput                : 0.4079 tugas/detik
+Total CPU Time            : 200.4854 detik
+Total Wait Time           : 0.0001 detik
+Average Start Time (rel)  : 36.1383 detik
+Average Execution Time    : 6.9133 detik
+Average Finish Time (rel) : 43.0516 detik
+Imbalance Degree          : 0.3746
+Resource Utilization (CPU): 70.4926%
+
+iterasi J2020-low_high-4:
+Semua eksekusi tugas selesai dalam 56.8677 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 29
+Makespan (Waktu Total)    : 56.8677 detik
+Throughput                : 0.5100 tugas/detik
+Total CPU Time            : 174.0731 detik
+Total Wait Time           : 0.0001 detik
+Average Start Time (rel)  : 33.4300 detik
+Average Execution Time    : 6.0025 detik
+Average Finish Time (rel) : 39.4325 detik
+Imbalance Degree          : 0.7638
+Resource Utilization (CPU): 76.5255%
+
+iterasi J2020-low_high-5:
+Semua eksekusi tugas selesai dalam 72.3833 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 29
+Makespan (Waktu Total)    : 72.3833 detik
+Throughput                : 0.4006 tugas/detik
+Total CPU Time            : 193.4162 detik
+Total Wait Time           : 0.0001 detik
+Average Start Time (rel)  : 36.2114 detik
+Average Execution Time    : 6.6695 detik
+Average Finish Time (rel) : 42.8809 detik
+Imbalance Degree          : 0.2986
+Resource Utilization (CPU): 66.8028%
+
+iterasi J2020-low_high-6:
+Semua eksekusi tugas selesai dalam 82.4309 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 29
+Makespan (Waktu Total)    : 82.4309 detik
+Throughput                : 0.3518 tugas/detik
+Total CPU Time            : 227.9606 detik
+Total Wait Time           : 0.0001 detik
+Average Start Time (rel)  : 43.4510 detik
+Average Execution Time    : 7.8607 detik
+Average Finish Time (rel) : 51.3117 detik
+Imbalance Degree          : 0.5027
+Resource Utilization (CPU): 69.1369%
+
+iterasi J2020-low_high-7:
+Semua eksekusi tugas selesai dalam 77.4478 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 29
+Makespan (Waktu Total)    : 77.4478 detik
+Throughput                : 0.3744 tugas/detik
+Total CPU Time            : 225.1796 detik
+Total Wait Time           : 0.0002 detik
+Average Start Time (rel)  : 43.3610 detik
+Average Execution Time    : 7.7648 detik
+Average Finish Time (rel) : 51.1258 detik
+Imbalance Degree          : 0.5328
+Resource Utilization (CPU): 72.6876%
+
+iterasi J2020-low_high-8:
+Semua eksekusi tugas selesai dalam 68.5380 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 29
+Makespan (Waktu Total)    : 68.5380 detik
+Throughput                : 0.4231 tugas/detik
+Total CPU Time            : 187.6209 detik
+Total Wait Time           : 0.0002 detik
+Average Start Time (rel)  : 35.3006 detik
+Average Execution Time    : 6.4697 detik
+Average Finish Time (rel) : 41.7703 detik
+Imbalance Degree          : 0.3702
+Resource Utilization (CPU): 68.4368%
+
+iterasi J2020-low_high-9:
+Semua eksekusi tugas selesai dalam 68.0628 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 29
+Makespan (Waktu Total)    : 68.0628 detik
+Throughput                : 0.4261 tugas/detik
+Total CPU Time            : 185.7655 detik
+Total Wait Time           : 0.0002 detik
+Average Start Time (rel)  : 39.0518 detik
+Average Execution Time    : 6.4057 detik
+Average Finish Time (rel) : 45.4575 detik
+Imbalance Degree          : 0.3910
+Resource Utilization (CPU): 68.2331%
+
+iterasi J2020-low_high-10:
+Semua eksekusi tugas selesai dalam 55.2520 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 29
+Makespan (Waktu Total)    : 55.2520 detik
+Throughput                : 0.5249 tugas/detik
+Total CPU Time            : 164.5610 detik
+Total Wait Time           : 0.0001 detik
+Average Start Time (rel)  : 32.9942 detik
+Average Execution Time    : 5.6745 detik
+Average Finish Time (rel) : 38.6687 detik
+Imbalance Degree          : 1.0480
+Resource Utilization (CPU): 74.4593%
+
+iterasi J2020-rand-1:
+Semua eksekusi tugas selesai dalam 64.2545 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 50
+Makespan (Waktu Total)    : 64.2545 detik
+Throughput                : 0.7782 tugas/detik
+Total CPU Time            : 237.3667 detik
+Total Wait Time           : 0.0002 detik
+Average Start Time (rel)  : 37.7507 detik
+Average Execution Time    : 4.7473 detik
+Average Finish Time (rel) : 42.4980 detik
+Imbalance Degree          : 0.1459
+Resource Utilization (CPU): 92.3541%
+
+iterasi J2020-rand-2:
+Semua eksekusi tugas selesai dalam 65.5048 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 50
+Makespan (Waktu Total)    : 65.5048 detik
+Throughput                : 0.7633 tugas/detik
+Total CPU Time            : 233.2175 detik
+Total Wait Time           : 0.0004 detik
+Average Start Time (rel)  : 36.6724 detik
+Average Execution Time    : 4.6644 detik
+Average Finish Time (rel) : 41.3367 detik
+Imbalance Degree          : 0.1986
+Resource Utilization (CPU): 89.0079%
+
+iterasi J2020-rand-3:
+Semua eksekusi tugas selesai dalam 62.1628 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 50
+Makespan (Waktu Total)    : 62.1628 detik
+Throughput                : 0.8043 tugas/detik
+Total CPU Time            : 230.6935 detik
+Total Wait Time           : 0.0002 detik
+Average Start Time (rel)  : 36.4666 detik
+Average Execution Time    : 4.6139 detik
+Average Finish Time (rel) : 41.0805 detik
+Imbalance Degree          : 0.1451
+Resource Utilization (CPU): 92.7780%
+
+iterasi J2020-rand-4:
+Semua eksekusi tugas selesai dalam 93.5741 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 50
+Makespan (Waktu Total)    : 93.5741 detik
+Throughput                : 0.5343 tugas/detik
+Total CPU Time            : 276.5774 detik
+Total Wait Time           : 0.0002 detik
+Average Start Time (rel)  : 43.9177 detik
+Average Execution Time    : 5.5315 detik
+Average Finish Time (rel) : 49.4493 detik
+Imbalance Degree          : 0.7701
+Resource Utilization (CPU): 73.8926%
+
+iterasi J2020-rand-5:
+Semua eksekusi tugas selesai dalam 62.6841 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 50
+Makespan (Waktu Total)    : 62.6841 detik
+Throughput                : 0.7977 tugas/detik
+Total CPU Time            : 227.3186 detik
+Total Wait Time           : 0.0003 detik
+Average Start Time (rel)  : 36.4132 detik
+Average Execution Time    : 4.5464 detik
+Average Finish Time (rel) : 40.9596 detik
+Imbalance Degree          : 0.1847
+Resource Utilization (CPU): 90.6603%
+
+iterasi J2020-rand-6:
+Semua eksekusi tugas selesai dalam 62.5756 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 50
+Makespan (Waktu Total)    : 62.5756 detik
+Throughput                : 0.7990 tugas/detik
+Total CPU Time            : 232.3114 detik
+Total Wait Time           : 0.0003 detik
+Average Start Time (rel)  : 36.1825 detik
+Average Execution Time    : 4.6462 detik
+Average Finish Time (rel) : 40.8287 detik
+Imbalance Degree          : 0.1744
+Resource Utilization (CPU): 92.8123%
+
+iterasi J2020-rand-7:
+Semua eksekusi tugas selesai dalam 61.9022 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 50
+Makespan (Waktu Total)    : 61.9022 detik
+Throughput                : 0.8077 tugas/detik
+Total CPU Time            : 232.4906 detik
+Total Wait Time           : 0.0002 detik
+Average Start Time (rel)  : 36.1834 detik
+Average Execution Time    : 4.6498 detik
+Average Finish Time (rel) : 40.8332 detik
+Imbalance Degree          : 0.1271
+Resource Utilization (CPU): 93.8944%
+
+iterasi J2020-rand-8:
+Semua eksekusi tugas selesai dalam 66.4089 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 50
+Makespan (Waktu Total)    : 66.4089 detik
+Throughput                : 0.7529 tugas/detik
+Total CPU Time            : 233.6829 detik
+Total Wait Time           : 0.0003 detik
+Average Start Time (rel)  : 37.0558 detik
+Average Execution Time    : 4.6737 detik
+Average Finish Time (rel) : 41.7295 detik
+Imbalance Degree          : 0.2349
+Resource Utilization (CPU): 87.9712%
+
+iterasi J2020-rand-9:
+Semua eksekusi tugas selesai dalam 63.9153 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 50
+Makespan (Waktu Total)    : 63.9153 detik
+Throughput                : 0.7823 tugas/detik
+Total CPU Time            : 231.9292 detik
+Total Wait Time           : 0.0002 detik
+Average Start Time (rel)  : 36.1840 detik
+Average Execution Time    : 4.6386 detik
+Average Finish Time (rel) : 40.8226 detik
+Imbalance Degree          : 0.1884
+Resource Utilization (CPU): 90.7174%
+
+iterasi J2020-rand-10:
+Semua eksekusi tugas selesai dalam 62.6802 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 50
+Makespan (Waktu Total)    : 62.6802 detik
+Throughput                : 0.7977 tugas/detik
+Total CPU Time            : 237.0531 detik
+Total Wait Time           : 0.0003 detik
+Average Start Time (rel)  : 37.0064 detik
+Average Execution Time    : 4.7411 detik
+Average Finish Time (rel) : 41.7474 detik
+Imbalance Degree          : 0.1114
+Resource Utilization (CPU): 94.5486%
+
+iterasi J2020-rand_stratified-1:
+Semua eksekusi tugas selesai dalam 94.2169 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 250
+Makespan (Waktu Total)    : 94.2169 detik
+Throughput                : 2.6535 tugas/detik
+Total CPU Time            : 290.1185 detik
+Total Wait Time           : 0.0013 detik
+Average Start Time (rel)  : 46.0673 detik
+Average Execution Time    : 1.1605 detik
+Average Finish Time (rel) : 47.2277 detik
+Imbalance Degree          : 0.4843
+Resource Utilization (CPU): 76.9815%
+
+iterasi J2020-rand_stratified-2:
+Semua eksekusi tugas selesai dalam 83.1880 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 250
+Makespan (Waktu Total)    : 83.1880 detik
+Throughput                : 3.0052 tugas/detik
+Total CPU Time            : 244.4888 detik
+Total Wait Time           : 0.0013 detik
+Average Start Time (rel)  : 43.4578 detik
+Average Execution Time    : 0.9780 detik
+Average Finish Time (rel) : 44.4357 detik
+Imbalance Degree          : 0.5157
+Resource Utilization (CPU): 73.4748%
+
+iterasi J2020-rand_stratified-3:
+Semua eksekusi tugas selesai dalam 84.0131 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 250
+Makespan (Waktu Total)    : 84.0131 detik
+Throughput                : 2.9757 tugas/detik
+Total CPU Time            : 232.2912 detik
+Total Wait Time           : 0.0016 detik
+Average Start Time (rel)  : 40.6076 detik
+Average Execution Time    : 0.9292 detik
+Average Finish Time (rel) : 41.5368 detik
+Imbalance Degree          : 0.6462
+Resource Utilization (CPU): 69.1235%
+
+iterasi J2020-rand_stratified-4:
+Semua eksekusi tugas selesai dalam 86.8954 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 250
+Makespan (Waktu Total)    : 86.8954 detik
+Throughput                : 2.8770 tugas/detik
+Total CPU Time            : 245.3643 detik
+Total Wait Time           : 0.0017 detik
+Average Start Time (rel)  : 44.8509 detik
+Average Execution Time    : 0.9815 detik
+Average Finish Time (rel) : 45.8323 detik
+Imbalance Degree          : 0.6314
+Resource Utilization (CPU): 70.5918%
+
+iterasi J2020-rand_stratified-5:
+Semua eksekusi tugas selesai dalam 68.2500 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 250
+Makespan (Waktu Total)    : 68.2500 detik
+Throughput                : 3.6630 tugas/detik
+Total CPU Time            : 192.4067 detik
 Total Wait Time           : 0.0012 detik
-Average Start Time (rel)  : 26.3172 detik
-Average Execution Time    : 0.8702 detik
-Average Finish Time (rel) : 27.1874 detik
-Imbalance Degree          : 0.1420
-Resource Utilization (CPU): 24.4603%
+Average Start Time (rel)  : 35.4377 detik
+Average Execution Time    : 0.7696 detik
+Average Finish Time (rel) : 36.2073 detik
+Imbalance Degree          : 0.6052
+Resource Utilization (CPU): 70.4786%
+
+iterasi J2020-rand_stratified-6:
+Semua eksekusi tugas selesai dalam 67.9845 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 250
+Makespan (Waktu Total)    : 67.9845 detik
+Throughput                : 3.6773 tugas/detik
+Total CPU Time            : 202.7600 detik
+Total Wait Time           : 0.0013 detik
+Average Start Time (rel)  : 35.3000 detik
+Average Execution Time    : 0.8110 detik
+Average Finish Time (rel) : 36.1110 detik
+Imbalance Degree          : 0.4845
+Resource Utilization (CPU): 74.5611%
+
+iterasi J2020-rand_stratified-7:
+Semua eksekusi tugas selesai dalam 63.7788 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 250
+Makespan (Waktu Total)    : 63.7788 detik
+Throughput                : 3.9198 tugas/detik
+Total CPU Time            : 191.4164 detik
+Total Wait Time           : 0.0025 detik
+Average Start Time (rel)  : 33.9930 detik
+Average Execution Time    : 0.7657 detik
+Average Finish Time (rel) : 34.7586 detik
+Imbalance Degree          : 0.4897
+Resource Utilization (CPU): 75.0314%
+
+iterasi J2020-rand_stratified-8:
+Semua eksekusi tugas selesai dalam 70.0045 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 250
+Makespan (Waktu Total)    : 70.0045 detik
+Throughput                : 3.5712 tugas/detik
+Total CPU Time            : 204.6973 detik
+Total Wait Time           : 0.0012 detik
+Average Start Time (rel)  : 36.9056 detik
+Average Execution Time    : 0.8188 detik
+Average Finish Time (rel) : 37.7243 detik
+Imbalance Degree          : 0.5216
+Resource Utilization (CPU): 73.1014%
+
+iterasi J2020-rand_stratified-9:
+Semua eksekusi tugas selesai dalam 89.9703 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 250
+Makespan (Waktu Total)    : 89.9703 detik
+Throughput                : 2.7787 tugas/detik
+Total CPU Time            : 227.5713 detik
+Total Wait Time           : 0.0013 detik
+Average Start Time (rel)  : 39.5888 detik
+Average Execution Time    : 0.9103 detik
+Average Finish Time (rel) : 40.4991 detik
+Imbalance Degree          : 0.9582
+Resource Utilization (CPU): 63.2351%
+
+iterasi J2020-rand_stratified-10:
+Semua eksekusi tugas selesai dalam 65.9238 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 250
+Makespan (Waktu Total)    : 65.9238 detik
+Throughput                : 3.7923 tugas/detik
+Total CPU Time            : 197.0795 detik
+Total Wait Time           : 0.0013 detik
+Average Start Time (rel)  : 35.3862 detik
+Average Execution Time    : 0.7883 detik
+Average Finish Time (rel) : 36.1746 detik
+Imbalance Degree          : 0.4962
+Resource Utilization (CPU): 74.7376%
+
+iterasi RR-low_high-1:
+Semua eksekusi tugas selesai dalam 209.8396 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 26
+Makespan (Waktu Total)    : 209.8396 detik
+Throughput                : 0.1239 tugas/detik
+Total CPU Time            : 428.8202 detik
+Total Wait Time           : 804.0226 detik
+Average Start Time (rel)  : 30.9269 detik
+Average Execution Time    : 16.4931 detik
+Average Finish Time (rel) : 47.4200 detik
+Imbalance Degree          : 1.3729
+Resource Utilization (CPU): 13.6237%
+
+iterasi RR-low_high-2:
+Semua eksekusi tugas selesai dalam 180.1723 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 26
+Makespan (Waktu Total)    : 180.1723 detik
+Throughput                : 0.1443 tugas/detik
+Total CPU Time            : 391.2123 detik
+Total Wait Time           : 753.9932 detik
+Average Start Time (rel)  : 29.0024 detik
+Average Execution Time    : 15.0466 detik
+Average Finish Time (rel) : 44.0491 detik
+Imbalance Degree          : 1.8921
+Resource Utilization (CPU): 14.4755%
+
+iterasi RR-low_high-3:
+Semua eksekusi tugas selesai dalam 253.8685 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 26
+Makespan (Waktu Total)    : 253.8685 detik
+Throughput                : 0.1024 tugas/detik
+Total CPU Time            : 483.4517 detik
+Total Wait Time           : 924.4063 detik
+Average Start Time (rel)  : 35.5581 detik
+Average Execution Time    : 18.5943 detik
+Average Finish Time (rel) : 54.1523 detik
+Imbalance Degree          : 1.1228
+Resource Utilization (CPU): 12.6956%
+
+iterasi RR-low_high-4:
+Semua eksekusi tugas selesai dalam 294.2015 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 26
+Makespan (Waktu Total)    : 294.2015 detik
+Throughput                : 0.0884 tugas/detik
+Total CPU Time            : 472.9904 detik
+Total Wait Time           : 1060.9084 detik
+Average Start Time (rel)  : 40.8088 detik
+Average Execution Time    : 18.1919 detik
+Average Finish Time (rel) : 59.0007 detik
+Imbalance Degree          : 0.9968
+Resource Utilization (CPU): 10.7181%
+
+iterasi RR-low_high-5:
+Semua eksekusi tugas selesai dalam 208.9616 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 26
+Makespan (Waktu Total)    : 208.9616 detik
+Throughput                : 0.1244 tugas/detik
+Total CPU Time            : 383.5930 detik
+Total Wait Time           : 762.4872 detik
+Average Start Time (rel)  : 29.3313 detik
+Average Execution Time    : 14.7536 detik
+Average Finish Time (rel) : 44.0849 detik
+Imbalance Degree          : 1.5802
+Resource Utilization (CPU): 12.2381%
+
+iterasi RR-low_high-6:
+Semua eksekusi tugas selesai dalam 225.8642 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 26
+Makespan (Waktu Total)    : 225.8642 detik
+Throughput                : 0.1151 tugas/detik
+Total CPU Time            : 455.2465 detik
+Total Wait Time           : 843.5656 detik
+Average Start Time (rel)  : 32.4507 detik
+Average Execution Time    : 17.5095 detik
+Average Finish Time (rel) : 49.9602 detik
+Imbalance Degree          : 1.3772
+Resource Utilization (CPU): 13.4372%
+
+iterasi RR-low_high-7:
+Semua eksekusi tugas selesai dalam 248.7452 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 26
+Makespan (Waktu Total)    : 248.7452 detik
+Throughput                : 0.1045 tugas/detik
+Total CPU Time            : 432.3721 detik
+Total Wait Time           : 882.7464 detik
+Average Start Time (rel)  : 33.9568 detik
+Average Execution Time    : 16.6297 detik
+Average Finish Time (rel) : 50.5865 detik
+Imbalance Degree          : 1.1924
+Resource Utilization (CPU): 11.5881%
+
+iterasi RR-low_high-8:
+Semua eksekusi tugas selesai dalam 232.0839 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 26
+Makespan (Waktu Total)    : 232.0839 detik
+Throughput                : 0.1120 tugas/detik
+Total CPU Time            : 395.4143 detik
+Total Wait Time           : 889.8649 detik
+Average Start Time (rel)  : 34.2324 detik
+Average Execution Time    : 15.2082 detik
+Average Finish Time (rel) : 49.4407 detik
+Imbalance Degree          : 1.6207
+Resource Utilization (CPU): 11.3584%
+
+iterasi RR-low_high-9:
+Semua eksekusi tugas selesai dalam 260.4246 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 26
+Makespan (Waktu Total)    : 260.4246 detik
+Throughput                : 0.0998 tugas/detik
+Total CPU Time            : 465.5616 detik
+Total Wait Time           : 960.6005 detik
+Average Start Time (rel)  : 36.9496 detik
+Average Execution Time    : 17.9062 detik
+Average Finish Time (rel) : 54.8558 detik
+Imbalance Degree          : 1.0948
+Resource Utilization (CPU): 11.9180%
+
+iterasi RR-low_high-10:
+Semua eksekusi tugas selesai dalam 189.8346 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 26
+Makespan (Waktu Total)    : 189.8346 detik
+Throughput                : 0.1370 tugas/detik
+Total CPU Time            : 458.6699 detik
+Total Wait Time           : 732.7287 detik
+Average Start Time (rel)  : 28.1852 detik
+Average Execution Time    : 17.6412 detik
+Average Finish Time (rel) : 45.8264 detik
+Imbalance Degree          : 1.4164
+Resource Utilization (CPU): 16.1077%
+
+iterasi RR-rand-1:
+Semua eksekusi tugas selesai dalam 268.7914 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 48
+Makespan (Waktu Total)    : 268.7914 detik
+Throughput                : 0.1786 tugas/detik
+Total CPU Time            : 649.1062 detik
+Total Wait Time           : 2433.2885 detik
+Average Start Time (rel)  : 50.6963 detik
+Average Execution Time    : 13.5230 detik
+Average Finish Time (rel) : 64.2193 detik
+Imbalance Degree          : 0.6064
+Resource Utilization (CPU): 16.0994%
+
+iterasi RR-rand-2:
+Semua eksekusi tugas selesai dalam 274.2806 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 48
+Makespan (Waktu Total)    : 274.2806 detik
+Throughput                : 0.1750 tugas/detik
+Total CPU Time            : 673.1210 detik
+Total Wait Time           : 2437.5386 detik
+Average Start Time (rel)  : 50.7886 detik
+Average Execution Time    : 14.0234 detik
+Average Finish Time (rel) : 64.8120 detik
+Imbalance Degree          : 0.5820
+Resource Utilization (CPU): 16.3609%
+
+iterasi RR-rand-3:
+Semua eksekusi tugas selesai dalam 286.8277 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 48
+Makespan (Waktu Total)    : 286.8277 detik
+Throughput                : 0.1673 tugas/detik
+Total CPU Time            : 690.3138 detik
+Total Wait Time           : 2546.7035 detik
+Average Start Time (rel)  : 53.0599 detik
+Average Execution Time    : 14.3815 detik
+Average Finish Time (rel) : 67.4415 detik
+Imbalance Degree          : 0.6023
+Resource Utilization (CPU): 16.0448%
+
+iterasi RR-rand-4:
+Semua eksekusi tugas selesai dalam 246.3714 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 48
+Makespan (Waktu Total)    : 246.3714 detik
+Throughput                : 0.1948 tugas/detik
+Total CPU Time            : 654.8345 detik
+Total Wait Time           : 2287.6019 detik
+Average Start Time (rel)  : 47.6670 detik
+Average Execution Time    : 13.6424 detik
+Average Finish Time (rel) : 61.3094 detik
+Imbalance Degree          : 0.4134
+Resource Utilization (CPU): 17.7194%
+
+iterasi RR-rand-5:
+Semua eksekusi tugas selesai dalam 241.3424 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 48
+Makespan (Waktu Total)    : 241.3424 detik
+Throughput                : 0.1989 tugas/detik
+Total CPU Time            : 643.3765 detik
+Total Wait Time           : 2202.9491 detik
+Average Start Time (rel)  : 45.9017 detik
+Average Execution Time    : 13.4037 detik
+Average Finish Time (rel) : 59.3054 detik
+Imbalance Degree          : 0.4081
+Resource Utilization (CPU): 17.7722%
+
+iterasi RR-rand-6:
+Semua eksekusi tugas selesai dalam 275.1451 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 48
+Makespan (Waktu Total)    : 275.1451 detik
+Throughput                : 0.1745 tugas/detik
+Total CPU Time            : 665.6933 detik
+Total Wait Time           : 2513.3526 detik
+Average Start Time (rel)  : 52.3671 detik
+Average Execution Time    : 13.8686 detik
+Average Finish Time (rel) : 66.2357 detik
+Imbalance Degree          : 0.6897
+Resource Utilization (CPU): 16.1295%
+
+iterasi RR-rand-7:
+Semua eksekusi tugas selesai dalam 271.9805 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 48
+Makespan (Waktu Total)    : 271.9805 detik
+Throughput                : 0.1765 tugas/detik
+Total CPU Time            : 677.5748 detik
+Total Wait Time           : 2357.7129 detik
+Average Start Time (rel)  : 49.1245 detik
+Average Execution Time    : 14.1161 detik
+Average Finish Time (rel) : 63.2407 detik
+Imbalance Degree          : 0.6371
+Resource Utilization (CPU): 16.6084%
+
+iterasi RR-rand-8:
+Semua eksekusi tugas selesai dalam 532.0934 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 45
+Makespan (Waktu Total)    : 532.0934 detik
+Throughput                : 0.0846 tugas/detik
+Total CPU Time            : 569.4380 detik
+Total Wait Time           : 5403.4193 detik
+Average Start Time (rel)  : 120.0816 detik
+Average Execution Time    : 12.6542 detik
+Average Finish Time (rel) : 132.7358 detik
+Imbalance Degree          : 0.6453
+Resource Utilization (CPU): 7.1346%
+
+iterasi RR-rand-9:
+Semua eksekusi tugas selesai dalam 246.4618 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 48
+Makespan (Waktu Total)    : 246.4618 detik
+Throughput                : 0.1948 tugas/detik
+Total CPU Time            : 657.2201 detik
+Total Wait Time           : 2247.9565 detik
+Average Start Time (rel)  : 46.8352 detik
+Average Execution Time    : 13.6921 detik
+Average Finish Time (rel) : 60.5273 detik
+Imbalance Degree          : 0.4791
+Resource Utilization (CPU): 17.7775%
+
+iterasi RR-rand-10:
+Semua eksekusi tugas selesai dalam 254.0490 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 48
+Makespan (Waktu Total)    : 254.0490 detik
+Throughput                : 0.1889 tugas/detik
+Total CPU Time            : 646.9990 detik
+Total Wait Time           : 2243.0302 detik
+Average Start Time (rel)  : 46.7375 detik
+Average Execution Time    : 13.4791 detik
+Average Finish Time (rel) : 60.2167 detik
+Imbalance Degree          : 0.5977
+Resource Utilization (CPU): 16.9783%
+
+iterasi RR-rand_stratified-1:
+Semua eksekusi tugas selesai dalam 140.0760 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 249
+Makespan (Waktu Total)    : 140.0760 detik
+Throughput                : 1.7776 tugas/detik
+Total CPU Time            : 606.7089 detik
+Total Wait Time           : 8653.8315 detik
+Average Start Time (rel)  : 34.7598 detik
+Average Execution Time    : 2.4366 detik
+Average Finish Time (rel) : 37.1964 detik
+Imbalance Degree          : 1.0347
+Resource Utilization (CPU): 28.8752%
+
+iterasi RR-rand_stratified-2:
+Semua eksekusi tugas selesai dalam 150.6141 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 249
+Makespan (Waktu Total)    : 150.6141 detik
+Throughput                : 1.6532 tugas/detik
+Total CPU Time            : 620.0059 detik
+Total Wait Time           : 9228.9255 detik
+Average Start Time (rel)  : 37.0711 detik
+Average Execution Time    : 2.4900 detik
+Average Finish Time (rel) : 39.5610 detik
+Imbalance Degree          : 0.9842
+Resource Utilization (CPU): 27.4435%
+
+iterasi RR-rand_stratified-3:
+Semua eksekusi tugas selesai dalam 131.4757 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 249
+Makespan (Waktu Total)    : 131.4757 detik
+Throughput                : 1.8939 tugas/detik
+Total CPU Time            : 603.8097 detik
+Total Wait Time           : 8294.1073 detik
+Average Start Time (rel)  : 33.3143 detik
+Average Execution Time    : 2.4249 detik
+Average Finish Time (rel) : 35.7392 detik
+Imbalance Degree          : 1.0154
+Resource Utilization (CPU): 30.6171%
+
+iterasi RR-rand_stratified-4:
+Semua eksekusi tugas selesai dalam 147.8553 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 249
+Makespan (Waktu Total)    : 147.8553 detik
+Throughput                : 1.6841 tugas/detik
+Total CPU Time            : 603.6927 detik
+Total Wait Time           : 8862.9121 detik
+Average Start Time (rel)  : 35.5994 detik
+Average Execution Time    : 2.4245 detik
+Average Finish Time (rel) : 38.0238 detik
+Imbalance Degree          : 1.0210
+Resource Utilization (CPU): 27.2200%
+
+iterasi RR-rand_stratified-5:
+Semua eksekusi tugas selesai dalam 112.6410 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 249
+Makespan (Waktu Total)    : 112.6410 detik
+Throughput                : 2.2106 tugas/detik
+Total CPU Time            : 563.9954 detik
+Total Wait Time           : 7164.5928 detik
+Average Start Time (rel)  : 28.7809 detik
+Average Execution Time    : 2.2650 detik
+Average Finish Time (rel) : 31.0459 detik
+Imbalance Degree          : 1.1318
+Resource Utilization (CPU): 33.3801%
+
+iterasi RR-rand_stratified-6:
+Semua eksekusi tugas selesai dalam 150.9023 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 249
+Makespan (Waktu Total)    : 150.9023 detik
+Throughput                : 1.6501 tugas/detik
+Total CPU Time            : 606.1700 detik
+Total Wait Time           : 9119.2446 detik
+Average Start Time (rel)  : 36.6313 detik
+Average Execution Time    : 2.4344 detik
+Average Finish Time (rel) : 39.0657 detik
+Imbalance Degree          : 0.9818
+Resource Utilization (CPU): 26.7798%
+
+iterasi RR-rand_stratified-7:
+Semua eksekusi tugas selesai dalam 138.8529 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 249
+Makespan (Waktu Total)    : 138.8529 detik
+Throughput                : 1.7933 tugas/detik
+Total CPU Time            : 601.2632 detik
+Total Wait Time           : 8572.1353 detik
+Average Start Time (rel)  : 34.4325 detik
+Average Execution Time    : 2.4147 detik
+Average Finish Time (rel) : 36.8472 detik
+Imbalance Degree          : 1.0599
+Resource Utilization (CPU): 28.8681%
+
+iterasi RR-rand_stratified-8:
+Semua eksekusi tugas selesai dalam 124.1726 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 249
+Makespan (Waktu Total)    : 124.1726 detik
+Throughput                : 2.0053 tugas/detik
+Total CPU Time            : 585.3305 detik
+Total Wait Time           : 7976.9495 detik
+Average Start Time (rel)  : 32.0434 detik
+Average Execution Time    : 2.3507 detik
+Average Finish Time (rel) : 34.3941 detik
+Imbalance Degree          : 1.0659
+Resource Utilization (CPU): 31.4256%
+
+iterasi RR-rand_stratified-9:
+Semua eksekusi tugas selesai dalam 117.7455 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 249
+Makespan (Waktu Total)    : 117.7455 detik
+Throughput                : 2.1147 tugas/detik
+Total CPU Time            : 572.4609 detik
+Total Wait Time           : 7555.1621 detik
+Average Start Time (rel)  : 30.3504 detik
+Average Execution Time    : 2.2990 detik
+Average Finish Time (rel) : 32.6494 detik
+Imbalance Degree          : 1.1087
+Resource Utilization (CPU): 32.4123%
+
+iterasi RR-rand_stratified-10:
+Semua eksekusi tugas selesai dalam 153.4847 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 249
+Makespan (Waktu Total)    : 153.4847 detik
+Throughput                : 1.6223 tugas/detik
+Total CPU Time            : 607.7535 detik
+Total Wait Time           : 9048.9251 detik
+Average Start Time (rel)  : 36.3482 detik
+Average Execution Time    : 2.4408 detik
+Average Finish Time (rel) : 38.7890 detik
+Imbalance Degree          : 1.0535
+Resource Utilization (CPU): 26.3980%
+
+iterasi FCFS-low_high-1:
+Semua eksekusi tugas selesai dalam 80.5947 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 28
+Makespan (Waktu Total)    : 80.5947 detik
+Throughput                : 0.3474 tugas/detik
+Total CPU Time            : 153.1363 detik
+Total Wait Time           : 0.0001 detik
+Average Start Time (rel)  : 18.6764 detik
+Average Execution Time    : 5.4692 detik
+Average Finish Time (rel) : 24.1455 detik
+Imbalance Degree          : 0.0520
+Resource Utilization (CPU): 12.6672%
+
+iterasi FCFS-low_high-2:
+Semua eksekusi tugas selesai dalam 62.7230 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 29
+Makespan (Waktu Total)    : 62.7230 detik
+Throughput                : 0.4624 tugas/detik
+Total CPU Time            : 158.4456 detik
+Total Wait Time           : 0.0002 detik
+Average Start Time (rel)  : 18.6334 detik
+Average Execution Time    : 5.4636 detik
+Average Finish Time (rel) : 24.0970 detik
+Imbalance Degree          : 0.1800
+Resource Utilization (CPU): 16.8408%
+
+iterasi FCFS-low_high-3:
+Semua eksekusi tugas selesai dalam 82.5215 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 29
+Makespan (Waktu Total)    : 82.5215 detik
+Throughput                : 0.3514 tugas/detik
+Total CPU Time            : 208.1311 detik
+Total Wait Time           : 0.0002 detik
+Average Start Time (rel)  : 18.4497 detik
+Average Execution Time    : 7.1769 detik
+Average Finish Time (rel) : 25.6267 detik
+Imbalance Degree          : 0.1968
+Resource Utilization (CPU): 16.8143%
+
+iterasi FCFS-low_high-4:
+Semua eksekusi tugas selesai dalam 116.5150 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 28
+Makespan (Waktu Total)    : 116.5150 detik
+Throughput                : 0.2403 tugas/detik
+Total CPU Time            : 147.2201 detik
+Total Wait Time           : 0.0001 detik
+Average Start Time (rel)  : 17.6871 detik
+Average Execution Time    : 5.2579 detik
+Average Finish Time (rel) : 22.9450 detik
+Imbalance Degree          : 0.0542
+Resource Utilization (CPU): 8.4235%
+
+iterasi FCFS-low_high-5:
+Semua eksekusi tugas selesai dalam 96.4424 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 29
+Makespan (Waktu Total)    : 96.4424 detik
+Throughput                : 0.3007 tugas/detik
+Total CPU Time            : 175.0576 detik
+Total Wait Time           : 0.0001 detik
+Average Start Time (rel)  : 19.7290 detik
+Average Execution Time    : 6.0365 detik
+Average Finish Time (rel) : 25.7654 detik
+Imbalance Degree          : 0.3895
+Resource Utilization (CPU): 12.1010%
+
+iterasi FCFS-low_high-6:
+Semua eksekusi tugas selesai dalam 66.9583 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 29
+Makespan (Waktu Total)    : 66.9583 detik
+Throughput                : 0.4331 tugas/detik
+Total CPU Time            : 160.7831 detik
+Total Wait Time           : 0.0001 detik
+Average Start Time (rel)  : 18.9680 detik
+Average Execution Time    : 5.5442 detik
+Average Finish Time (rel) : 24.5122 detik
+Imbalance Degree          : 0.2133
+Resource Utilization (CPU): 16.0083%
+
+iterasi FCFS-low_high-7:
+Semua eksekusi tugas selesai dalam 67.5735 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 29
+Makespan (Waktu Total)    : 67.5735 detik
+Throughput                : 0.4292 tugas/detik
+Total CPU Time            : 155.3080 detik
+Total Wait Time           : 0.0001 detik
+Average Start Time (rel)  : 18.8415 detik
+Average Execution Time    : 5.3554 detik
+Average Finish Time (rel) : 24.1969 detik
+Imbalance Degree          : 0.1841
+Resource Utilization (CPU): 15.3224%
+
+iterasi FCFS-low_high-8:
+Semua eksekusi tugas selesai dalam 61.4227 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 29
+Makespan (Waktu Total)    : 61.4227 detik
+Throughput                : 0.4721 tugas/detik
+Total CPU Time            : 150.7982 detik
+Total Wait Time           : 0.0001 detik
+Average Start Time (rel)  : 18.1725 detik
+Average Execution Time    : 5.1999 detik
+Average Finish Time (rel) : 23.3724 detik
+Imbalance Degree          : 0.1801
+Resource Utilization (CPU): 16.3673%
+
+iterasi FCFS-low_high-9:
+Semua eksekusi tugas selesai dalam 80.2446 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 29
+Makespan (Waktu Total)    : 80.2446 detik
+Throughput                : 0.3614 tugas/detik
+Total CPU Time            : 151.7882 detik
+Total Wait Time           : 0.0001 detik
+Average Start Time (rel)  : 18.2940 detik
+Average Execution Time    : 5.2341 detik
+Average Finish Time (rel) : 23.5281 detik
+Imbalance Degree          : 0.1987
+Resource Utilization (CPU): 12.6105%
+
+iterasi FCFS-low_high-10:
+Semua eksekusi tugas selesai dalam 84.1865 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 29
+Makespan (Waktu Total)    : 84.1865 detik
+Throughput                : 0.3445 tugas/detik
+Total CPU Time            : 153.4196 detik
+Total Wait Time           : 0.0001 detik
+Average Start Time (rel)  : 18.2219 detik
+Average Execution Time    : 5.2903 detik
+Average Finish Time (rel) : 23.5122 detik
+Imbalance Degree          : 0.1505
+Resource Utilization (CPU): 12.1492%
+
+iterasi FCFS-rand-1:
+Semua eksekusi tugas selesai dalam 68.5871 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 50
+Makespan (Waktu Total)    : 68.5871 detik
+Throughput                : 0.7290 tugas/detik
+Total CPU Time            : 248.8995 detik
+Total Wait Time           : 0.0002 detik
+Average Start Time (rel)  : 27.3846 detik
+Average Execution Time    : 4.9780 detik
+Average Finish Time (rel) : 32.3626 detik
+Imbalance Degree          : 0.2239
+Resource Utilization (CPU): 24.1930%
+
+iterasi FCFS-rand-2:
+Semua eksekusi tugas selesai dalam 65.8192 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 49
+Makespan (Waktu Total)    : 65.8192 detik
+Throughput                : 0.7445 tugas/detik
+Total CPU Time            : 199.4260 detik
+Total Wait Time           : 0.0002 detik
+Average Start Time (rel)  : 25.6178 detik
+Average Execution Time    : 4.0699 detik
+Average Finish Time (rel) : 29.6877 detik
+Imbalance Degree          : 0.4691
+Resource Utilization (CPU): 20.1994%
+
+iterasi FCFS-rand-3:
+Semua eksekusi tugas selesai dalam 68.0535 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 50
+Makespan (Waktu Total)    : 68.0535 detik
+Throughput                : 0.7347 tugas/detik
+Total CPU Time            : 237.4653 detik
+Total Wait Time           : 0.0002 detik
+Average Start Time (rel)  : 27.8134 detik
+Average Execution Time    : 4.7493 detik
+Average Finish Time (rel) : 32.5627 detik
+Imbalance Degree          : 0.2507
+Resource Utilization (CPU): 23.2626%
+
+iterasi FCFS-rand-4:
+Semua eksekusi tugas selesai dalam 67.3931 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 49
+Makespan (Waktu Total)    : 67.3931 detik
+Throughput                : 0.7271 tugas/detik
+Total CPU Time            : 200.6197 detik
+Total Wait Time           : 0.0002 detik
+Average Start Time (rel)  : 25.3455 detik
+Average Execution Time    : 4.0943 detik
+Average Finish Time (rel) : 29.4398 detik
+Imbalance Degree          : 0.4727
+Resource Utilization (CPU): 19.8457%
+
+iterasi FCFS-rand-5:
+Semua eksekusi tugas selesai dalam 65.3148 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 50
+Makespan (Waktu Total)    : 65.3148 detik
+Throughput                : 0.7655 tugas/detik
+Total CPU Time            : 243.9501 detik
+Total Wait Time           : 0.0003 detik
+Average Start Time (rel)  : 27.9349 detik
+Average Execution Time    : 4.8790 detik
+Average Finish Time (rel) : 32.8139 detik
+Imbalance Degree          : 0.1125
+Resource Utilization (CPU): 24.8999%
+
+iterasi FCFS-rand-6:
+Semua eksekusi tugas selesai dalam 66.9567 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 50
+Makespan (Waktu Total)    : 66.9567 detik
+Throughput                : 0.7468 tugas/detik
+Total CPU Time            : 231.9433 detik
+Total Wait Time           : 0.0003 detik
+Average Start Time (rel)  : 26.3067 detik
+Average Execution Time    : 4.6389 detik
+Average Finish Time (rel) : 30.9456 detik
+Imbalance Degree          : 0.2243
+Resource Utilization (CPU): 23.0939%
+
+iterasi FCFS-rand-7:
+Semua eksekusi tugas selesai dalam 61.7634 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 49
+Makespan (Waktu Total)    : 61.7634 detik
+Throughput                : 0.7934 tugas/detik
+Total CPU Time            : 190.9383 detik
+Total Wait Time           : 0.0003 detik
+Average Start Time (rel)  : 25.9297 detik
+Average Execution Time    : 3.8967 detik
+Average Finish Time (rel) : 29.8264 detik
+Imbalance Degree          : 0.8609
+Resource Utilization (CPU): 20.6097%
+
+iterasi FCFS-rand-8:
+Semua eksekusi tugas selesai dalam 66.0350 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 50
+Makespan (Waktu Total)    : 66.0350 detik
+Throughput                : 0.7572 tugas/detik
+Total CPU Time            : 237.7051 detik
+Total Wait Time           : 0.0003 detik
+Average Start Time (rel)  : 27.5882 detik
+Average Execution Time    : 4.7541 detik
+Average Finish Time (rel) : 32.3423 detik
+Imbalance Degree          : 0.1628
+Resource Utilization (CPU): 23.9979%
+
+iterasi FCFS-rand-9:
+Semua eksekusi tugas selesai dalam 117.5095 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 49
+Makespan (Waktu Total)    : 117.5095 detik
+Throughput                : 0.4170 tugas/detik
+Total CPU Time            : 248.6730 detik
+Total Wait Time           : 0.0003 detik
+Average Start Time (rel)  : 26.6107 detik
+Average Execution Time    : 5.0750 detik
+Average Finish Time (rel) : 31.6856 detik
+Imbalance Degree          : 0.5518
+Resource Utilization (CPU): 14.1080%
+
+iterasi FCFS-rand-10:
+Semua eksekusi tugas selesai dalam 68.9935 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 49
+Makespan (Waktu Total)    : 68.9935 detik
+Throughput                : 0.7102 tugas/detik
+Total CPU Time            : 202.7483 detik
+Total Wait Time           : 0.0002 detik
+Average Start Time (rel)  : 26.2837 detik
+Average Execution Time    : 4.1377 detik
+Average Finish Time (rel) : 30.4214 detik
+Imbalance Degree          : 0.3621
+Resource Utilization (CPU): 19.5911%
+
+iterasi FCFS-rand_stratified-1:
+Semua eksekusi tugas selesai dalam 66.5677 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 250
+Makespan (Waktu Total)    : 66.5677 detik
+Throughput                : 3.7556 tugas/detik
+Total CPU Time            : 227.5016 detik
+Total Wait Time           : 0.0013 detik
+Average Start Time (rel)  : 25.4359 detik
+Average Execution Time    : 0.9100 detik
+Average Finish Time (rel) : 26.3459 detik
+Imbalance Degree          : 0.3048
+Resource Utilization (CPU): 22.7840%
+
+iterasi FCFS-rand_stratified-2:
+Semua eksekusi tugas selesai dalam 53.9433 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 250
+Makespan (Waktu Total)    : 53.9433 detik
+Throughput                : 4.6345 tugas/detik
+Total CPU Time            : 195.3438 detik
+Total Wait Time           : 0.0011 detik
+Average Start Time (rel)  : 22.7434 detik
+Average Execution Time    : 0.7814 detik
+Average Finish Time (rel) : 23.5248 detik
+Imbalance Degree          : 0.1723
+Resource Utilization (CPU): 24.1419%
+
+iterasi FCFS-rand_stratified-3:
+Semua eksekusi tugas selesai dalam 52.8098 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 249
+Makespan (Waktu Total)    : 52.8098 detik
+Throughput                : 4.7150 tugas/detik
+Total CPU Time            : 159.4905 detik
+Total Wait Time           : 0.0012 detik
+Average Start Time (rel)  : 21.3695 detik
+Average Execution Time    : 0.6405 detik
+Average Finish Time (rel) : 22.0100 detik
+Imbalance Degree          : 0.6266
+Resource Utilization (CPU): 20.1340%
+
+iterasi FCFS-rand_stratified-4:
+Semua eksekusi tugas selesai dalam 56.7897 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 250
+Makespan (Waktu Total)    : 56.7897 detik
+Throughput                : 4.4022 tugas/detik
+Total CPU Time            : 204.3929 detik
+Total Wait Time           : 0.0011 detik
+Average Start Time (rel)  : 24.9079 detik
+Average Execution Time    : 0.8176 detik
+Average Finish Time (rel) : 25.7254 detik
+Imbalance Degree          : 0.1718
+Resource Utilization (CPU): 23.9941%
+
+iterasi FCFS-rand_stratified-5:
+Semua eksekusi tugas selesai dalam 59.2855 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 249
+Makespan (Waktu Total)    : 59.2855 detik
+Throughput                : 4.2000 tugas/detik
+Total CPU Time            : 165.3130 detik
+Total Wait Time           : 0.0012 detik
+Average Start Time (rel)  : 21.6944 detik
+Average Execution Time    : 0.6639 detik
+Average Finish Time (rel) : 22.3583 detik
+Imbalance Degree          : 0.9605
+Resource Utilization (CPU): 18.5895%
+
+iterasi FCFS-rand_stratified-6:
+Semua eksekusi tugas selesai dalam 58.2709 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 250
+Makespan (Waktu Total)    : 58.2709 detik
+Throughput                : 4.2903 tugas/detik
+Total CPU Time            : 218.2535 detik
+Total Wait Time           : 0.0012 detik
+Average Start Time (rel)  : 24.5215 detik
+Average Execution Time    : 0.8730 detik
+Average Finish Time (rel) : 25.3945 detik
+Imbalance Degree          : 0.1540
+Resource Utilization (CPU): 24.9700%
+
+iterasi FCFS-rand_stratified-7:
+Semua eksekusi tugas selesai dalam 55.4561 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 250
+Makespan (Waktu Total)    : 55.4561 detik
+Throughput                : 4.5081 tugas/detik
+Total CPU Time            : 199.2510 detik
+Total Wait Time           : 0.0012 detik
+Average Start Time (rel)  : 22.7601 detik
+Average Execution Time    : 0.7970 detik
+Average Finish Time (rel) : 23.5571 detik
+Imbalance Degree          : 0.1535
+Resource Utilization (CPU): 23.9530%
+
+iterasi FCFS-rand_stratified-8:
+Semua eksekusi tugas selesai dalam 52.3342 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 250
+Makespan (Waktu Total)    : 52.3342 detik
+Throughput                : 4.7770 tugas/detik
+Total CPU Time            : 190.5820 detik
+Total Wait Time           : 0.0012 detik
+Average Start Time (rel)  : 22.0110 detik
+Average Execution Time    : 0.7623 detik
+Average Finish Time (rel) : 22.7734 detik
+Imbalance Degree          : 0.1655
+Resource Utilization (CPU): 24.2776%
+
+iterasi FCFS-rand_stratified-9:
+Semua eksekusi tugas selesai dalam 46.5709 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 250
+Makespan (Waktu Total)    : 46.5709 detik
+Throughput                : 5.3682 tugas/detik
+Total CPU Time            : 182.2507 detik
+Total Wait Time           : 0.0011 detik
+Average Start Time (rel)  : 22.7767 detik
+Average Execution Time    : 0.7290 detik
+Average Finish Time (rel) : 23.5057 detik
+Imbalance Degree          : 0.0585
+Resource Utilization (CPU): 26.0893%
+
+iterasi FCFS-rand_stratified-10:
+Semua eksekusi tugas selesai dalam 70.6702 detik.
+
+--- Hasil ---
+Total Tugas Selesai       : 249
+Makespan (Waktu Total)    : 70.6702 detik
+Throughput                : 3.5234 tugas/detik
+Total CPU Time            : 184.5349 detik
+Total Wait Time           : 0.0011 detik
+Average Start Time (rel)  : 25.3143 detik
+Average Execution Time    : 0.7411 detik
+Average Finish Time (rel) : 26.0554 detik
+Imbalance Degree          : 0.2902
+Resource Utilization (CPU): 17.4081%
+
